@@ -1,0 +1,43 @@
+test("Test case", async({page})=>{
+
+    
+})
+
+
+IN PLAYWRIGHT  
+
+fill () -- writing something inside into the text box
+
+click() -- click on button or link
+
+locator or webelement 
+
+
+Xpath
+CSS
+getText
+getPlaceholder()
+
+
+page.locator("")
+
+css - 
+
+
+1 -  #idname 
+2 - tagname#idname
+3 - tagname[attribute='value']
+
+4 tagname.classname --- always should be 1 of 1
+
+
+Xpath
+1 -   //tagname[@attribute='value']
+
+2-  //tagname[text()='TextValue']
+
+3-- (//tagname[text()='textvalue'])[2] 
+
+(//tagname[@attribute='value'])[3]
+
+4- //tagname[contains(text(),'search text')]
